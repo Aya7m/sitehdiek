@@ -1,0 +1,137 @@
+html{
+    direction: rtl;
+}
+body{
+    font-family: "Comfortaa", sans-serif;
+    font-family: "Almarai", sans-serif;
+}
+.btn-primary {
+    --bs-btn-color: #fff;
+    --bs-btn-bg: #3465C8;
+    --bs-btn-border-color: #fff;
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: #4480da;
+    --bs-btn-hover-border-color: #fff;
+   
+}
+.btn-success {
+    --bs-btn-color: #fff;
+    --bs-btn-bg: #259908;
+    --bs-btn-border-color: #fff;
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: #0cc205;
+    --bs-btn-hover-border-color: #fff;
+    margin-left: 20px;
+   
+   
+}
+.carousel-caption{
+    position: absolute;
+    bottom: 35%;
+}
+#about{
+    background-image: url(/images/investment-concept-business-5241253-e1710811146423.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 1600px
+}
+#about h1{
+   color: #fff;
+    font-size: 70px;
+    font-family: "Carrois Gothic", sans-serif;
+    font-weight: 500;
+}
+.layer{
+    height: 1600px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+#about i,span{
+    color: #5FE94B;
+}
+video{
+    width: 400px;
+    margin-top: 20px;
+   
+    
+}
+#contantUs{
+    height: 70vh;
+    background-image: url(../images/pngwing.com-7.png);
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 100px;
+    
+}
+.services h2{
+    font-size: 67px;
+    font-family: "Carrois Gothic", sans-serif;
+    font-weight: 500;
+}
+.services img:hover{
+    scale: 0.9;
+    
+}
+.services img{
+    
+    border: 2px solid  #259908;
+}
+.services a{
+    text-decoration: none;
+    font-size: 30px;
+    color: white;
+    font-family: "Carrois Gothic", sans-serif;
+   
+}
+.inner{
+    background-color: #2B4618;
+}
+.main h2{
+    font-size: 68px;
+}
+.innerr{
+   
+    background: rgba(0, 0, 0, 0.5);
+  
+}
+.ourWork .innerr:hover .caption{
+
+    background-color: rgba(0, 0, 0, 0.6);
+}
+.tans img{
+    margin: auto;
+    position: relative;
+    
+    
+}
+.tans::after{
+    content: "";
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    width: 150px;
+    height: 3px;
+    background-color: #2B4618;
+    
+    transform: translateX(-50%);
+}
+.tans a{
+    text-decoration: none;
+    margin-top: 10px;
+
+}
+.tanss a{
+    text-decoration: none;
+    margin-top: 10px;
+}
+.icon{
+    bottom: 10%;
+    right: 30px;
+    font-size: 50px;
+    color: #0cc205;
+}
+.services{
+    margin-top: 100px;
+}
+#contantUs{
+    margin-bottom: 100px;
+}
